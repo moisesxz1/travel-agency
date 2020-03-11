@@ -1,0 +1,30 @@
+extends ../layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="Imagen de nosotros" class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sapien dui, venenatis quis risus vel, dapibus fermentum eros. Praesent interdum bibendum mauris, sit amet bibendum sem posuere aliquam. Duis sollicitudin varius risus. Proin sed vulputate risus. Donec ultricies lacinia lorem, vel efficitur quam. Suspendisse efficitur magna non odio blandit convallis. Nunc dictum eget elit eu commodo. Nunc accumsan nulla id urna iaculis, sed iaculis sapien pellentesque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec lacinia elit vel eros tincidunt, quis maximus leo tincidunt. Quisque eu semper velit. Donec at ex lobortis, dapibus tortor non, hendrerit est. 
+                p Integer pellentesque sapien vitae justo posuere, vulputate consectetur eros accumsan. Praesent luctus auctor nisl, eu interdum ex congue in. Nunc faucibus, odio nec facilisis vehicula, lorem dui placerat augue, a euismod turpis lacus a augue. Fusce tincidunt nisl tristique imperdiet consectetur. Donec consectetur augue quam, vel elementum ipsum feugiat eu. Aenean pulvinar, elit at porta lacinia, turpis diam lacinia ex, at imperdiet metus risus vel ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi elit, viverra et lobortis non, condimentum et nisi. Maecenas condimentum augue vitae risus porta tincidunt. 
+                p Aliquam aliquet suscipit tempor. Suspendisse eleifend justo eu libero accumsan, ut suscipit mauris molestie. Morbi sagittis leo dui, a volutpat lacus condimentum pharetra. Praesent et nibh eros. Praesent scelerisque interdum lectus ac sagittis. Proin tristique dapibus malesuada. Morbi dignissim urna ex. Sed eget ipsum vitae massa sollicitudin efficitur. 
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p giat. Integer et urna felis. Curabitur commodo mi eu aliquet malesuada. Etiam pellentesque, risus lacinia mollis molestie, leo urna malesuada orci, nec efficitur ante ante vitae eni
+                .col-md-4
+                    img(src="img/icono_destinos.svg", class="img-fluid mb-4")
+                    h2.mb-4 Mejores destinos
+                    p giat. Integer et urna felis. Curabitur commodo mi eu aliquet malesuada. Etiam pellentesque, risus lacinia mollis molestie, leo urna malesuada orci, nec efficitur ante ante vitae eni
+                .col-md-4
+                    img(src="img/icono_precios.svg", class="img-fluid mb-4")
+                    h2.mb-4 Mejor Precio
+                    p et urna felis. Curabitur commodo mi eu aliquet malesuada. Etiam pellentesque, risus lacinia mollis molestie, leo urna malesuada orci, nec efficitur ante ante vitae eni
+
+    -//#{variable} : de esta otra forma tambien se puede mostrar una variable

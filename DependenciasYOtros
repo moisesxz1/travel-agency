@@ -1,0 +1,22 @@
+La idea de las dependencias es que se puede instalar ciertas piezas de software que vienen desde Node package manager(npm)
+
+
+npm init
+npm install --save nodemon body-parser express
+npm install --save pug
+npm install --save mysql2 sequelize
+
+
+
+                            NPM commands
+body-parser: es requerido por node para poder presentar cierta informacion
+nodemon: los cambios que se hagan en el servidor los monitorea, si hay cambios recarga el servidor
+express: Va a ser servidor local
+
+
+Scripts
+"start" : "nodemon server"
+
+public: va a ser la carpeta de archivos estaticos
+server: carpeta para modelos, rutas, y archivos de configuracion
+index.js: configuracion del servidor
